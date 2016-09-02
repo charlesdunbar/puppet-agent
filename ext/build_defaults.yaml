@@ -1,6 +1,6 @@
 ---
 project: 'puppet-agent'
-packaging_url: 'git://github.com/puppetlabs/packaging.git --branch=master'
+packaging_url: 'git://github.com/charlesdunbar/packaging.git --branch=cinext'
 packaging_repo: 'packaging'
 # foss_platforms will be shipped to the nightly repos
 foss_platforms:
