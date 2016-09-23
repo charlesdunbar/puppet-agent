@@ -17,4 +17,5 @@ gem "beaker-hostgenerator", *location_for(ENV['BEAKER_HOSTGENERATOR_VERSION'] ||
 gem 'rake'
 gem 'json'
 gem 'rubocop', "~> 0.34.2"
-gem 'openstack', :git => 'https://github.com/ruby-openstack/ruby-openstack.git', :tag => 'v2.1.0'
+gem 'fog-openstack', :git => 'https://github.com/charlesdunbar/fog-openstack', :ref => 'edae4609b278831d4e5d321d95d16239c4652b46'
+gem 'mime-types'
